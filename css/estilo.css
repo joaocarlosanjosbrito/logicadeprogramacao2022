@@ -1,0 +1,293 @@
+@charset "UTF-8";
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000;
+    color: #fff;
+    padding: 10px 30px;
+    height: 100vh;
+    background-position: center;
+    font-family: Arial;
+}
+
+.texto-esquerda {
+    position: absolute;
+    bottom: -125px;
+    margin: 5px;
+}
+
+.cabecalho {
+    font-size: 1rem;
+}
+
+.ativo {
+    background-color: rgb(8, 8, 241);
+    color: rgb(245, 239, 239);
+}
+
+.cabecalho ul {
+    height: 40px;
+    background-color: #000;
+    opacity: 0.6;
+    padding: 25px 50px;
+    border-radius: 50px;
+    box-shadow: 0px 0px 5px black;
+}
+
+.cabecalho a {
+    display: inline;
+    text-decoration: none;
+    color: rgb(241, 235, 235);
+    font-weight: 700;
+    /* font-weight: bold; */
+}
+
+.menu {
+    float: right;
+    width: auto;
+}
+
+.menu li {
+    list-style: none;
+    list-style-type: none;
+    padding: 13px;
+    display: inline-block;
+    letter-spacing: 1.5px;
+    margin-right: 10px;
+    text-transform: uppercase;
+    margin-top: -8px;
+    border-radius: 25px;
+    transition: 0.7s all;
+}
+
+.menu li:hover {
+    transition: 0.7s all;
+    background-color: #fff;
+    color: #000;
+}
+
+.contato {
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 3px black;
+    /* border: 2px solid #000; */
+    margin: 20px;
+    position: absolute;
+    width: 450px;
+    top: 155px;
+    right: 100px;
+    text-align: center;
+    font-size: 1.9rem;
+    background: #00000091;
+}
+
+.contato label, .contato textarea {
+    display: block;
+    width: 100%;
+}
+
+.contato input, .contato textarea {
+    border-radius: 25px;
+    border: none;
+    padding: 5px;
+    outline: none;
+    width: 75%;
+}
+
+.contato textarea {
+    height: 100px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.enviar {
+    width: 40%;
+    margin-top: 10px;
+}
+
+.contato input[type=submit]{
+    width: 40%;
+    margin-top: 10px;
+}
+
+.main {
+    font-size: 3rem;
+    color: #696969;
+    width: 60%;
+    display: inline-block;
+    margin: 6rem;
+}
+
+@media (max-width: 798px) {
+    .cabecalho ul {
+        font-size: 1.8rem;
+        width: 100%;
+        margin: 0;
+        padding: 8px;
+        text-align: center;
+    }
+    .menu {
+        display: none;
+    }
+    .titulo-main {
+        display: block;
+        position: relative;
+        width: 100%;
+        font-size: 2rem;
+    }
+    .contato {
+        position: relative;
+        width: 100%;
+        top: 0;
+        left: 0;
+        right: 0;
+        margin: 0 auto;
+        font-size: 1.4rem;
+        padding: 0px;
+    }
+    .main {
+        margin: 0;
+        text-align: center;
+        font-size: 1.9rem;
+        width: 100%;
+        margin-top: 12px;
+        margin-bottom: 12px;
+    }
+    .container {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+    }
+}
+
+@media (max-width: 320px){
+    .cabecalho ul {
+        height: auto;
+    }
+    body {
+        background-color: #000;
+    }
+
+}
+
+
+    .cabecalho ul {
+        font-size: 1.1rem;
+        height: auto;
+    }
+    .main {
+         font-size: 1.8rem;
+         margin: 2.6rem;
+         width: 550;
+         padding: 0;
+    }
+
+    .contato {
+                
+    padding: 5px;
+    border-radius: 30px;
+    box-shadow: 0px 0px 3px black;
+    /* border: 2px solid #000; */
+    margin: 20px;
+    position: absolute;
+    width: 350px;
+    top: 90px;
+    right: 15px;
+    text-align: center;
+    font-size: 1.9rem;
+    background: #00000091;
+
+    }
+    .rodape {
+        padding: 5px;
+        text-align: center;
+        background-color: black;
+        margin-left: -56px;
+        width:  100vw;
+    }
+
+    .patrocinio {
+        display: inline-block;
+        text-align: center;
+        margin: 0 auto;
+
+        
+    }
+    .patrocinio img{
+        width: 10%;
+        margin-bottom: 62px;
+    }
+    .feature{
+        width: 300px;
+        margin-left: 200px;
+    }
+    .feature h4{
+        color: rgb(89, 0, 255);
+        font-size: 25px;
+
+    }
+
+
+    
+    .website {
+        width: 200px;
+        margin-top: -152px;
+        margin-bottom: 18px;
+        margin-left: 674px;
+    }
+    .game{
+        width: 200px;
+        margin-top: -169px;
+        margin-bottom: 134px;
+        margin-left: 990px;
+
+    }
+
+    .social1{
+        width: 200px;
+        margin-left: 673px;
+        margin-top: -1px;
+        margin-right: 0px;
+        margin-bottom: 13px;
+    }
+
+    .social2{
+        width: 200px;
+        margin-top: -159px;
+        margin-bottom: 67px;
+        margin-left: 992px;
+    
+ 
+    }
+    .fas{
+        color: blue;
+        font-size: 50px
+    }
+
+    .portfolio {
+        width: 1900px;
+        height: 1900px;
+        text-align: center;
+    }
+    .portfolio h3{
+        color: blueviolet;
+        font-size: larger;
+    }
+    .portfolio h1 {
+        font-size: 50px;
+    }
+    .gamer1 {
+        width: 500px;
+        height: 500px;
+         display: inline-block;     /*função para deixar as div uma ao lado da outra */
+    }
+    .gamer1 img{
+        width: 550px;
+        border-style: solid;
+        border-color: crimson;
+        border-radius: 25px;
+    }

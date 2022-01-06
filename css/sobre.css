@@ -1,0 +1,47 @@
+@charset "UTF-8";
+
+body {
+    background: url('https://www.kanguruinfo.com.br/wp-content/uploads/2018/06/video-game-controller-background-10-e1528819452196.jpg') no-repeat;
+    background-color: black;
+    
+
+}
+
+.sobre {
+    color: white;
+    max-width: 980px;
+    text-align: center;
+    margin: 5rem auto;
+
+}
+
+.sobre h3 {
+    font-size: 4rem;
+    margin-top: 50%;
+    text-align: left;
+
+}
+
+.sobre p {
+    font-size: 2rem;
+    text-align: left;
+
+
+}
+
+.estrutura {
+    height: auto;
+}
+
+.botao {
+color: white;
+font-family: arial;
+font-size: 2rem;
+background-color: rgb(8, 8, 241);
+text-transform: uppercase;
+font-weight: 700;
+padding: 1%;
+margin-left: 23%;
+
+
+}
